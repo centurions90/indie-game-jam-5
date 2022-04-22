@@ -330,7 +330,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -580,6 +580,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 8260457403834147310, guid: 7722374b4dd84d54587fbfeac87706fd, type: 3}
+      propertyPath: m_Color.b
+      value: 0.3584906
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260457403834147310, guid: 7722374b4dd84d54587fbfeac87706fd, type: 3}
+      propertyPath: m_Color.g
+      value: 0.3584906
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260457403834147310, guid: 7722374b4dd84d54587fbfeac87706fd, type: 3}
+      propertyPath: m_Color.r
+      value: 0.3584906
+      objectReference: {fileID: 0}
     - target: {fileID: 8260457404851908702, guid: 7722374b4dd84d54587fbfeac87706fd, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0.03643799
@@ -646,7 +658,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71547932207760242b76e47ebd2cc35d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenuSceneName: 
 --- !u!114 &8260457404300295622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -659,7 +670,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71547932207760242b76e47ebd2cc35d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenuSceneName: 
 --- !u!114 &8260457404300295623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -672,7 +682,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71547932207760242b76e47ebd2cc35d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenuSceneName: 
 --- !u!114 &8260457404300295624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -685,4 +694,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71547932207760242b76e47ebd2cc35d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenuSceneName: 
