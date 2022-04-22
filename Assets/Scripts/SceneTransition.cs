@@ -1,18 +1,36 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SceneTransition : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] string mainMenuSceneName;
+    string lastLevel;
+
+    private void Start()
     {
-        
+        lastLevel = mainMenuSceneName;
+        setLastLevel(mainMenuSceneName);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void setLastLevel(string level)
     {
-        
+        lastLevel = level;
+    }
+
+    public void OpenScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+
+    public void LoadLastScene()
+    {
+        SceneManager.LoadScene(lastLevel);
+    }
+
+    public void QuitApp()
+    {
+        Application.Quit();
     }
 }
