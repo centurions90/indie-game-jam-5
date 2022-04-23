@@ -15,8 +15,7 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Level 1 Time","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Level
       2 Time","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Level
-      3 Time","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Total
-      Time","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Music
+      3 Time","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Music
       Volume","value":{"$content":0.35,"$type":"System.Single"},"$version":"A"},{"name":"SFX
       Volume","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
