@@ -46,7 +46,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Stretch Amount","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"Time","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"Delay","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Stretch Amount","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"Time","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"Delay","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Deactivated
+      Color","value":{"r":0.2352941,"g":0.5411765,"b":0.6509804,"a":1.0,"$type":"UnityEngine.Color"},"$version":"A"},{"name":"Activated
+      Color","value":{"r":0.2039216,"g":0.9843138,"b":1.0,"a":1.0,"$type":"UnityEngine.Color"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &9109381696009448532
 MonoBehaviour:
